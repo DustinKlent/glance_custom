@@ -10,27 +10,27 @@ pages:
               - name: Resources & Blogs
                 links:
                   - title: ODSC Blog
-                    url: https://medium.com/feed/@odsc
+                    url: https://medium.com/@odsc
                   - title: Radix AI Blog
-                    url: https://medium.com/feed/radix-ai-blog
+                    url: https://medium.com/radix-ai-blog
                   - title: Towards AI
-                    url: https://pub.towardsai.net/feed
+                    url: https://pub.towardsai.net
                   - title: AI News
-                    url: https://www.artificialintelligence-news.com/feed/rss/
+                    url: https://www.artificialintelligence-news.com
                   - title: MarkTechPost
-                    url: https://www.marktechpost.com/feed
+                    url: https://www.marktechpost.com
                   - title: Machine Learning Mastery
-                    url: https://machinelearningmastery.com/blog/feed
+                    url: https://machinelearningmastery.com/blog
                   - title: Microsoft Research
-                    url: https://www.microsoft.com/en-us/research/feed/
+                    url: https://www.microsoft.com/en-us/research/
                   - title: Debugger Cafe
-                    url: https://debuggercafe.com/feed/
+                    url: https://debuggercafe.com/
                   - title: Artificialis
-                    url: https://medium.com/feed/artificialis
+                    url: https://medium.com/artificialis
                   - title: TechXplore (Robotics)
-                    url: https://techxplore.com/rss-feed/robotics-news/
+                    url: https://techxplore.com/robotics-news/
                   - title: TechXplore (AI & ML)
-                    url: https://techxplore.com/rss-feed/machine-learning-ai-news/
+                    url: https://techxplore.com/machine-learning-ai-news/
 
           # 🎯 Main AI + ML Feed Block (with images)
           - type: rss
