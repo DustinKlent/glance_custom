@@ -5,7 +5,8 @@ pages:
         widgets:
           - type: rss
             title: AI & ML News
-            style: vertical-list
+            style: detailed-list
+            thumbnail-height: 20
             limit: 100
             collapse-after: 10
             cache: 2h
@@ -62,5 +63,3 @@ pages:
               - url: https://openai.com/news/rss.xml
               - url: https://techcrunch.com/feed/
               - url: https://medium.com/feed/artificialis
-
-              #comment
