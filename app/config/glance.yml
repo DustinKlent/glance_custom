@@ -3,13 +3,13 @@ pages:
     columns:
       - size: full
         widgets:
-          # Main group of RSS feeds
+          # 🎯 Main AI + ML Feed Block (with images)
           - type: rss
             title: AI & ML News
             style: detailed-list
             thumbnail-height: 20
-            limit: 100
-            collapse-after: 10
+            limit: 200
+            collapse-after: 25
             cache: 2h
             feeds:
               - url: https://crfm.stanford.edu/feed
@@ -19,8 +19,6 @@ pages:
               - url: https://deepmind.com/blog/feed/basic/
               - url: https://feed.infoq.com/ai-ml-data-eng/
               - url: https://futurism.com/categories/ai-artificial-intelligence/feed
-              - url: https://jamesg.blog/hf-papers.xml
-              - url: https://lastweekin.ai/feed
               - url: https://medium.com/feed/@odsc
               - url: https://medium.com/feed/radix-ai-blog
               - url: https://pub.towardsai.net/feed
@@ -56,21 +54,47 @@ pages:
               - url: https://huggingface.co/blog/feed.xml
               - url: https://www.infoworld.com/feed/
               - url: https://insideainews.com/feed/
-              - url: https://hackernoon.com/tagged/ai/feed
               - url: https://www.microsoft.com/en-us/research/feed/
               - url: https://www.interconnects.ai/feed
               - url: https://debuggercafe.com/feed/
-              - url: https://openai.com/news/rss.xml
-              - url: https://techcrunch.com/feed/
               - url: https://medium.com/feed/artificialis
 
-          # 🧪 Separate RSS widget for JMLR
+          # 🧠 JMLR (no images)
           - type: rss
             title: JMLR – Journal of Machine Learning Research
             style: detailed-list
-            thumbnail-height: 20
-            limit: 10
+            limit: 15
             collapse-after: 5
             cache: 4h
             feeds:
               - url: https://www.jmlr.org/jmlr.xml
+
+          # 📰 TechCrunch (no images)
+          - type: rss
+            title: TechCrunch – AI
+            style: detailed-list
+            limit: 15
+            collapse-after: 5
+            cache: 2h
+            feeds:
+              - url: https://techcrunch.com/feed/
+
+          # 📚 Hugging Face Papers (JSON, no images)
+          - type: rss
+            title: HF Papers – James G Blog
+            style: detailed-list
+            limit: 15
+            collapse-after: 5
+            cache: 4h
+            feeds:
+              - url: https://jamesg.blog/hf-papers.json
+
+          # ✍️ Hackernoon AI (no images)
+          - type: rss
+            title: Hackernoon – AI Articles
+            style: detailed-list
+            limit: 15
+            collapse-after: 5
+            cache: 2h
+            feeds:
+              - url: https://hackernoon.com/tagged/ai/feed
