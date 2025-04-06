@@ -7,6 +7,4 @@
 !/go.mod
 !/go.sum
 !main.go
-
-# 👇 ADD THIS LINE
 !app/config/glance.yml
