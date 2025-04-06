@@ -1,3 +1,34 @@
+          # 📌 AI Bookmarks
+          - type: bookmarks
+            title: AI Bookmarks
+            groups:
+              - name: Resources & Blogs
+                links:
+                  - title: ODSC Blog
+                    url: https://medium.com/feed/@odsc
+                  - title: Radix AI Blog
+                    url: https://medium.com/feed/radix-ai-blog
+                  - title: Towards AI
+                    url: https://pub.towardsai.net/feed
+                  - title: AI News
+                    url: https://www.artificialintelligence-news.com/feed/rss/
+                  - title: MarkTechPost
+                    url: https://www.marktechpost.com/feed
+                  - title: Machine Learning Mastery
+                    url: https://machinelearningmastery.com/blog/feed
+                  - title: Microsoft Research
+                    url: https://www.microsoft.com/en-us/research/feed/
+                  - title: Debugger Cafe
+                    url: https://debuggercafe.com/feed/
+                  - title: Artificialis
+                    url: https://medium.com/feed/artificialis
+                  - title: TechXplore (Robotics)
+                    url: https://techxplore.com/rss-feed/robotics-news/
+                  - title: TechXplore (AI & ML)
+                    url: https://techxplore.com/rss-feed/machine-learning-ai-news/
+
+
+
 pages:
   - name: AI & ML News
     columns:
@@ -48,34 +79,6 @@ pages:
               - url: https://insideainews.com/feed/
               - url: https://www.interconnects.ai/feed
 
-          # 📌 AI Bookmarks
-          - type: bookmarks
-            title: AI Bookmarks
-            groups:
-              - name: Resources & Blogs
-                links:
-                  - title: ODSC Blog
-                    url: https://medium.com/feed/@odsc
-                  - title: Radix AI Blog
-                    url: https://medium.com/feed/radix-ai-blog
-                  - title: Towards AI
-                    url: https://pub.towardsai.net/feed
-                  - title: AI News
-                    url: https://www.artificialintelligence-news.com/feed/rss/
-                  - title: MarkTechPost
-                    url: https://www.marktechpost.com/feed
-                  - title: Machine Learning Mastery
-                    url: https://machinelearningmastery.com/blog/feed
-                  - title: Microsoft Research
-                    url: https://www.microsoft.com/en-us/research/feed/
-                  - title: Debugger Cafe
-                    url: https://debuggercafe.com/feed/
-                  - title: Artificialis
-                    url: https://medium.com/feed/artificialis
-                  - title: TechXplore (Robotics)
-                    url: https://techxplore.com/rss-feed/robotics-news/
-                  - title: TechXplore (AI & ML)
-                    url: https://techxplore.com/rss-feed/machine-learning-ai-news/
 
           # 🧠 JMLR (no images)
           - type: rss
