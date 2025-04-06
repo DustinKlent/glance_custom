@@ -3,6 +3,7 @@ pages:
     columns:
       - size: full
         widgets:
+          # Main group of RSS feeds
           - type: rss
             title: AI & ML News
             style: detailed-list
@@ -58,8 +59,18 @@ pages:
               - url: https://hackernoon.com/tagged/ai/feed
               - url: https://www.microsoft.com/en-us/research/feed/
               - url: https://www.interconnects.ai/feed
-              - url: https://www.jmlr.org/jmlr.xml
               - url: https://debuggercafe.com/feed/
               - url: https://openai.com/news/rss.xml
               - url: https://techcrunch.com/feed/
               - url: https://medium.com/feed/artificialis
+
+          # 🧪 Separate RSS widget for JMLR
+          - type: rss
+            title: JMLR – Journal of Machine Learning Research
+            style: detailed-list
+            thumbnail-height: 20
+            limit: 10
+            collapse-after: 5
+            cache: 4h
+            feeds:
+              - url: https://www.jmlr.org/jmlr.xml
