@@ -1,4 +1,9 @@
-          # 📌 AI Bookmarks
+pages:
+  - name: AI & ML News
+    columns:
+      - size: full
+        widgets:
+          # 📌 AI Bookmarks – now at the top
           - type: bookmarks
             title: AI Bookmarks
             groups:
@@ -27,13 +32,6 @@
                   - title: TechXplore (AI & ML)
                     url: https://techxplore.com/rss-feed/machine-learning-ai-news/
 
-
-
-pages:
-  - name: AI & ML News
-    columns:
-      - size: full
-        widgets:
           # 🎯 Main AI + ML Feed Block (with images)
           - type: rss
             title: AI & ML News
@@ -78,7 +76,6 @@ pages:
               - url: https://www.infoworld.com/feed/
               - url: https://insideainews.com/feed/
               - url: https://www.interconnects.ai/feed
-
 
           # 🧠 JMLR (no images)
           - type: rss
