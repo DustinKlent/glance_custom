@@ -19,18 +19,13 @@ pages:
               - url: https://deepmind.com/blog/feed/basic/
               - url: https://feed.infoq.com/ai-ml-data-eng/
               - url: https://futurism.com/categories/ai-artificial-intelligence/feed
-              - url: https://medium.com/feed/@odsc
-              - url: https://medium.com/feed/radix-ai-blog
-              - url: https://pub.towardsai.net/feed
               - url: https://rss.arxiv.org/rss/stat.ML
               - url: https://thedataexchange.media/feed/
               - url: https://the-decoder.com/feed/
               - url: https://thenewstack.io/feed
               - url: https://towardsdatascience.com/feed
-              - url: https://www.artificialintelligence-news.com/feed/rss/
               - url: https://www.datanami.com/feed/
               - url: https://www.kdnuggets.com/feed
-              - url: https://www.marktechpost.com/feed
               - url: https://www.oreilly.com/radar/topics/ai-ml/feed/index.xml
               - url: https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml
               - url: https://www.singularityweblog.com/blog/feed/
@@ -38,11 +33,8 @@ pages:
               - url: https://www.unite.ai/category/artificial-intelligence/feed/
               - url: https://www.viact.ai/blog-feed.xml
               - url: https://www.wired.com/feed/tag/ai/latest/rss
-              - url: https://techxplore.com/rss-feed/robotics-news/
-              - url: https://techxplore.com/rss-feed/machine-learning-ai-news/
               - url: https://ai-techpark.com/category/ai/feed/
               - url: https://aibusiness.com/rss.xml
-              - url: https://machinelearningmastery.com/blog/feed
               - url: https://siliconangle.com/category/ai/feed/
               - url: https://every.to/chain-of-thought/feed.xml
               - url: https://news.crunchbase.com/sections/ai/feed/
@@ -54,10 +46,36 @@ pages:
               - url: https://huggingface.co/blog/feed.xml
               - url: https://www.infoworld.com/feed/
               - url: https://insideainews.com/feed/
-              - url: https://www.microsoft.com/en-us/research/feed/
               - url: https://www.interconnects.ai/feed
-              - url: https://debuggercafe.com/feed/
-              - url: https://medium.com/feed/artificialis
+
+          # 📌 AI Bookmarks
+          - type: bookmarks
+            title: AI Bookmarks
+            groups:
+              - name: Resources & Blogs
+                links:
+                  - title: ODSC Blog
+                    url: https://medium.com/feed/@odsc
+                  - title: Radix AI Blog
+                    url: https://medium.com/feed/radix-ai-blog
+                  - title: Towards AI
+                    url: https://pub.towardsai.net/feed
+                  - title: AI News
+                    url: https://www.artificialintelligence-news.com/feed/rss/
+                  - title: MarkTechPost
+                    url: https://www.marktechpost.com/feed
+                  - title: Machine Learning Mastery
+                    url: https://machinelearningmastery.com/blog/feed
+                  - title: Microsoft Research
+                    url: https://www.microsoft.com/en-us/research/feed/
+                  - title: Debugger Cafe
+                    url: https://debuggercafe.com/feed/
+                  - title: Artificialis
+                    url: https://medium.com/feed/artificialis
+                  - title: TechXplore (Robotics)
+                    url: https://techxplore.com/rss-feed/robotics-news/
+                  - title: TechXplore (AI & ML)
+                    url: https://techxplore.com/rss-feed/machine-learning-ai-news/
 
           # 🧠 JMLR (no images)
           - type: rss
